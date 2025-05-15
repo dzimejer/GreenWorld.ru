@@ -1,0 +1,35 @@
+.infoBlock1{
+    background-color: black;
+    color: white;
+    padding-left: 43%;
+    padding-right: 40%;
+    border-radius: 10px;
+}
+.infoBlock2{
+    background-color: black;
+    color: white;
+    padding-left: 43%;
+    padding-right: 40%;
+    border-radius: 10px;
+}
+.menu{
+    outline: auto;
+    position: relative;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.menu a{
+    outline: auto;
+    margin-right: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+.menu a:hover{
+    transform: scale(1.2);
+    color: red;
+}
