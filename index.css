@@ -1,0 +1,177 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 1600px;
+}
+.menu{
+    background-color: lightgreen;
+    position: relative;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.menu a{
+    margin-right: 40px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+.menu a:hover{
+    transform: scale(1.2);
+    color: green;
+}
+.banner{
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url('https://cdn.eva.vn/upload/2-2024/images/2024-06-11/picture-7-1718089622-491-width719height528.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.blackGlass{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blackGlass p{
+    font-size: 64px;
+    color: greenyellow;
+}
+.advantages{
+    background-color: whitesmoke;
+    border: 3px black solid;
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.col{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.advantagesInfo{
+    border-radius: 10px;
+    border: 3px black solid;
+    width: 60%;
+    height: 50%;
+    position: relative;
+}
+.icons{
+    border: 3px black solid;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: -20%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.advInfo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ai1{
+    background-color: goldenrod;
+}
+.ai2{
+    background-color: orange;
+}
+.ai3{
+    background-color: red;
+}
+.ai4{
+    background-color: lightgreen;
+}
+.icons1{
+    background-color: cadetblue;
+    background-image: url('https://thumbs.dreamstime.com/b/знак-золотого-знака-высокого-качества-векторная-иллюстрация-эп-215683630.jpg');
+    background-position: center;
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
+.icons2{
+    background-color: cadetblue;
+    background-image: url('https://fondovyirynok.ru/Дополнительная-плата-за-доставку/1_share-pic/108806.jpg');
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.icons3{
+    background-color: cadetblue;
+    background-image: url('https://i.pinimg.com/originals/5f/b0/2c/5fb02c638a11312821953ae02c7db805.png');
+    background-position: center;
+    background-size: 116%;
+    background-repeat: no-repeat;
+}
+.icons4{
+    background-color: cadetblue;
+    background-image: url('https://avatars.mds.yandex.net/i?id=f263b1500e1b15cbdffd6cc5c45a473b_l-5878501-images-thumbs&n=13');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.buttonBlock{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.interactivButton{
+    width: 20%;
+    height: 20%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.infoBlock{
+    display: flex;
+    background-color: black;
+    max-width: auto;
+    margin: 1;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media (max-width: 769px) {
+    .advantages{
+        flex-direction: column;
+        height: 2100px;
+    }
+    .col{
+        height: 550px;
+        width: 500px;
+    }
+}

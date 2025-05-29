@@ -1,0 +1,199 @@
+
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 2000px;
+}
+.advantages{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.advantages2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.col{
+    background-color: lightgreen;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px black solid;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.col2{
+    background-color: greenyellow;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px black solid;
+    width: 100%;
+    height: 110%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.advantagesInfo{
+    width: 60%;
+    height: 40%;
+    position: relative;
+}
+.icons{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: -70%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.advInfo{
+    padding-left: 5%;
+    margin: 5px;
+    width: 0%;
+    height: 270%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.advInfoai2{
+    transform: translateY(900%);
+    padding-left: 10%;
+    width: 65%;
+    height: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icons1{
+    background-color: cadetblue;
+    background-image: url('https://images.cdn-cian.ru/images/80/153/441/1443510838-6.jpg');
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+.icons2{
+    background-color: cadetblue;
+    background-image: url('https://avatars.mds.yandex.net/i?id=f865ac7824f7baa710009549a0ad921b-5714674-images-thumbs&n=13');
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+.icons3{ 
+    background-color: cadetblue;
+    background-image: url('https://i.pinimg.com/originals/a5/4e/38/a54e3875b9a92ef4e4b4573725fb82ee.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.icons4{ 
+    background-color: cadetblue;
+    background-image: url('https://i.vuzopedia.ru/storage/app/uploads/public/676/e89/008/676e89008c4ed802951331.jpeg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.icons5{ 
+    background-color: cadetblue;
+    background-image: url('https://avatars.mds.yandex.net/i?id=f20dd2f68e4b911d0d02463f23ddb792_l-4900962-images-thumbs&n=13');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.ot{
+    margin-left: 47%;
+}
+.prezintacia{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.back{
+    margin: 20px;
+}
+.back a{
+    margin-left: 35%;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+.back a:hover{
+    transform: scale(1.2);
+    color: red;
+}
+.menu{
+    background-color: lightgreen;
+    position: relative;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.menu a{
+    margin-right: 40px;
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+.menu a:hover{
+    transform: scale(1.2);
+    color: green;
+}
+.history{
+    margin-left: 5px;
+}
+.mission{
+    margin-left: 5px;
+}
+.team{
+    margin-left: 5px;
+}
+@media (max-width: 769px) {
+    .advantages{
+        flex-direction: column;
+        height: 1300px;
+    }
+    .advInfo{
+        margin-left: 45%;
+    }
+    .advantages2{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .ot{
+        margin-left: 40%;
+    }
+}
+.infoBlock{
+    display: flex;
+    background-color: black;
+    max-width: auto;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

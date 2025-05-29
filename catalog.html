@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог товаров</title>
+  <link rel="stylesheet" href="catalog.css">
+</head>
+<body>
+  <!-- Header -->
+    <div class="menu">
+        <a href="aboutus.html">О нас</a>
+        <a href="index.html">Главная</a>
+        <a href="contacts.html">Контакты</a>
+    </div>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container">
+      <!-- Product Cards -->
+      <section class="cards">
+        <div class="card" onclick="openModal()">
+          <img src="https://urn48.ru/upload/iblock/65c/2q8ueqvdlt0t679e89iigg1cw1amfyne.jpeg" alt="Товар 1">
+          <div class="card-content">
+            <h3>Лейка садовая</h3>
+            <p>Садовая лейка — инструмент для полива растений. например: Пластиковые. Лёгкие, доступные, не ржавеют. Однако менее прочные, могут ломаться.</p>
+          </div>
+        </div>
+        <div class="card" onclick="openModal()">
+          <img src="https://cdn1.ozone.ru/multimedia/1019310658.jpg" alt="Товар 2">
+          <div class="card-content">
+            <h3>Лопата садовая</h3>
+            <p>Лопата — ручной шанцевый инструмент, который используют для работы с грунтом и сыпучими веществами. Она представляет собой лоток (полотно), насаженный на рукоять (черенок).</p>
+          </div>
+        </div>
+        <div class="card" onclick="openModal()">
+          <img src="https://i.pinimg.com/originals/18/2f/0c/182f0c9fd2a830a4711304010fbfdd6e.jpg" alt="товар 3">
+          <div class="card-content">
+            <h3>Стронгилодон крупнокистевой</h3>
+            <p>Растение семейства Бобовые, вид рода Стронгилодон, произрастающее в диком виде в тропических лесах Филиппинских островов. Растение часто культивируется в тропических и субтропических странах как декоративное.</p>
+          </div>
+        </div>
+
+      <!-- Table -->
+      <section>
+        <h2 style="margin-top: 20px;">Цены на товары</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Товар</th>
+              <th>Цена</th>
+              <th>Наличие</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Лейка садовая</td>
+              <td>300₽</td>
+              <td>В наличии</td>
+            </tr>
+            <tr>
+              <td>Лопата садовая</td>
+              <td>1500₽</td>
+              <td>В наличии</td>
+            </tr>
+            <tr>
+              <td>Стронгилодон крупнокистевой</td>
+              <td>10000₽</td>
+              <td>в наличии</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <h2>Заказать звонок</h2>
+      <input type="text" placeholder="Ваше имя">
+      <input type="text" placeholder="Телефон">
+      <button>Отправить</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="infoBlock">
+        <p>Мы в WhatsApp</p>
+        <p>+7(999)999-99-99</p>
+        <p>email: gmail@mail.ru</p>
+    </div>
+
+  <script src="catalog.js"></script>
+</body>
+</html>
